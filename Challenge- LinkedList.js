@@ -61,7 +61,7 @@ class LinkedList {
                 current.next = current.next.next;
                 return true
             }else{
-                return this.remove(value, curren.next)
+                return this.remove(value, current.next)
             }
         }
     }
