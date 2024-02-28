@@ -48,3 +48,4 @@ const pila = new Stack();
 pila.push(book1);
 pila.push(book2);
 pila.push(book3);
+pila.print();
